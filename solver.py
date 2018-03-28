@@ -11,9 +11,10 @@ class Solver:
 
              root2 = (-b - disc) / (2 * a)
 
-             return[root1, root2]
+             print(root1, root2)
 
          else :
              raise Exception
+             
 
-
+Solver().demo(2,1,0)
